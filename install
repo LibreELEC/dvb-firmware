@@ -1,0 +1,10 @@
+#!/bin/sh
+################################################################################
+#      This file is part of Alex@ELEC - http://www.alexelec.in.ua
+#      Copyright (C) 2011-2017 Alexandr Zuyev (alex@alexelec.in.ua)
+################################################################################
+
+FW_DIR="$DESTDIR/lib/firmware"
+
+mkdir -p $FW_DIR
+  cp -a firmware/* $FW_DIR
